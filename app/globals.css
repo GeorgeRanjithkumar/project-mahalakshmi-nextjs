@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1e1b4b;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f5;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4f46e5, #f59e0b);
+  border-radius: 8px;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-dark {
+  background: rgba(30, 27, 75, 0.55);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b, #fde68a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient-royal {
+  background: linear-gradient(135deg, #4f46e5, #6366f1, #1e1b4b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bento-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.bento-glow::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.5), rgba(245, 158, 11, 0.5));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+  filter: blur(12px);
+}
+
+.bento-glow:hover::before {
+  opacity: 1;
+}
+
+.geo-pattern {
+  background-image:
+    linear-gradient(30deg, rgba(99,102,241,0.04) 12%, transparent 12.5%, transparent 87%, rgba(99,102,241,0.04) 87.5%, rgba(99,102,241,0.04)),
+    linear-gradient(150deg, rgba(99,102,241,0.04) 12%, transparent 12.5%, transparent 87%, rgba(99,102,241,0.04) 87.5%, rgba(99,102,241,0.04)),
+    linear-gradient(30deg, rgba(99,102,241,0.04) 12%, transparent 12.5%, transparent 87%, rgba(99,102,241,0.04) 87.5%, rgba(99,102,241,0.04)),
+    linear-gradient(150deg, rgba(99,102,241,0.04) 12%, transparent 12.5%, transparent 87%, rgba(99,102,241,0.04) 87.5%, rgba(99,102,241,0.04));
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+}
