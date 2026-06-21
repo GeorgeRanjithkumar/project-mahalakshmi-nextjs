@@ -38,7 +38,7 @@ export default function BentoFeatures() {
           </h2>
           <p className="mt-4 text-base sm:text-lg text-royal-700/80">
             From state-of-the-art labs to a thriving campus culture, every
-            corner of Maha Lakshmi College of Engineering is designed to
+            corner of Maha Lakshmi Community College is designed to
             shape industry-ready professionals.
           </p>
         </motion.div>
@@ -67,7 +67,7 @@ export default function BentoFeatures() {
                 <p className="text-white/70 leading-relaxed mb-6 max-w-md">
                   Our dedicated Training &amp; Placement Cell partners with
                   leading recruiters across IT, manufacturing, and core
-                  engineering sectors — ensuring every eligible student walks
+                   sectors — ensuring every eligible student walks
                   into a rewarding career.
                 </p>
                 <div className="flex items-center gap-8">
@@ -135,7 +135,7 @@ export default function BentoFeatures() {
               <p className="text-royal-700/75 leading-relaxed text-sm mb-5">
                 From robotics and IoT to AI &amp; ML research clusters, our
                 labs give students hands-on exposure to next-generation
-                engineering tools.
+                 tools.
               </p>
               <p className="font-display font-extrabold text-3xl text-royal-800">
                 <CountUp value={50} suffix="+" />

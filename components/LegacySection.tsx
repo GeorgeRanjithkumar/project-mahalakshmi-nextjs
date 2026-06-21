@@ -108,8 +108,8 @@ export default function LegacySection() {
                 A Campus Built for Innovation
               </h3>
               <p className="text-royal-700/80 mb-7 leading-relaxed">
-                Spanning a sprawling, purpose-designed campus, Maha Lakshmi
-                College of Engineering integrates academic blocks, research
+                Spanning a sprawling, purpose-designed campus, Maha Lakshmi Community
+                College integrates academic blocks, research
                 laboratories, and recreational spaces into a single,
                 future-ready environment for holistic learning.
               </p>

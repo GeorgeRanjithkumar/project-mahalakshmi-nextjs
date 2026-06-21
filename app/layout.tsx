@@ -15,14 +15,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Maha Lakshmi College of Engineering | Perambalur, Tamil Nadu",
+  title: "Maha Lakshmi Community College | Perambalur, Tamil Nadu",
   description:
-    "An ISO 9001:2008 certified institution in Perambalur, Tamil Nadu — empowering students with world-class engineering education, 100% placement support, and a vibrant campus life rooted in tradition and innovation.",
+    "An ISO 9001:2008 certified institution in Perambalur, Tamil Nadu — empowering students with world-class education, 100% placement support, and a vibrant campus life rooted in tradition and innovation.",
   keywords: [
-    "Maha Lakshmi College of Engineering",
-    "Perambalur engineering college",
-    "Tamil Nadu engineering admissions 2026",
-    "Best engineering college Perambalur",
+    "Maha Lakshmi Community College",
+    "Perambalur college",
+    "Best college Perambalur",
   ],
 };
 

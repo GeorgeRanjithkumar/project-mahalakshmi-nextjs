@@ -51,7 +51,7 @@ export default function Footer() {
               <div>
                 <p className="font-display font-bold text-base">Maha Lakshmi</p>
                 <p className="text-[10px] uppercase tracking-widest text-white/50">
-                  College of Engineering
+                  Community College
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-gold-400 mt-0.5 shrink-0" />
                 <p className="text-sm text-white/65 leading-relaxed">
-                  No. 34, Mariyamman Koil Street, Perambalur, Tamil Nadu - 621212
+                  No. 34,Rasi Mandabam Street, MaryPuram, Sangu Pettai, Perambalur - 621212
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -146,7 +146,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
-          <p>&copy; 2026 Maha Lakshmi College of Engineering, Perambalur. All rights reserved.</p>
+          <p>&copy; 2026 Maha Lakshmi Community College, Perambalur. All rights reserved.</p>
           <p>Admissions open for 2026 &ndash; 2027 Academic Year</p>
         </div>
       </div>

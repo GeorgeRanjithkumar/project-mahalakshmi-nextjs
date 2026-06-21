@@ -34,7 +34,7 @@ const testimonials = [
     role: "Graduate Trainee, Renewable Energy Sector",
     batch: "Batch of 2024, Electrical & Electronics",
     quote:
-      "The OT Technician and core engineering diploma programs gave me a strong technical edge. The campus culture also helped me grow as a confident, well-rounded professional.",
+      "The OT Technician and core diploma programs gave me a strong technical edge. The campus culture also helped me grow as a confident, well-rounded professional.",
     rating: 5,
   },
 ];

@@ -51,7 +51,7 @@ export default function Navbar() {
               Maha Lakshmi
             </p>
             <p className="text-[10px] sm:text-xs font-medium text-royal-600 tracking-widest uppercase">
-              College of Engineering
+              Community College
             </p>
           </div>
         </a>

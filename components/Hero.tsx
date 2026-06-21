@@ -51,7 +51,7 @@ export default function Hero() {
             variants={itemVariants}
             className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-[1.1] text-royal-900 tracking-tight"
           >
-            Engineering Global Careers,{" "}
+             Global Careers,{" "}
             <span className="text-gradient-royal">Rooted in</span>{" "}
             <span className="text-gradient-gold">Local Excellence</span>
           </motion.h1>
@@ -60,7 +60,7 @@ export default function Hero() {
             variants={itemVariants}
             className="mt-6 text-base sm:text-lg text-royal-700/80 max-w-xl leading-relaxed"
           >
-            Maha Lakshmi College of Engineering blends cutting-edge technology
+            Maha Lakshmi Community College blends cutting-edge technology
             education with the values of Tamil heritage — empowering students
             from Perambalur and beyond with industry-ready skills, 100%
             placement assistance, and a campus built for tomorrow&apos;s
