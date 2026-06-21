@@ -18,10 +18,12 @@ const courses = [
   "Nursing (DNA)",
   "Lab Technician (DMLT)",
   "Catering & Hotel Management",
+  "MLT (Medical Lab Technology)",
+  "A/C Mechanic, Fire & Safety",
 ];
 
 // ✅ Put your WhatsApp number here (country code + number, no + or spaces)
-const WHATSAPP_NUMBER = "9597350897";
+const WHATSAPP_NUMBER = "8610940704";
 
 export default function CTABanner() {
   const [submitted, setSubmitted] = useState(false);
